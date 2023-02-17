@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".components.menu.MenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_title"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/btn_menu_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/landing_page1" />
+
+        <TextView
+            android:id="@+id/tv_menu_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_menu_com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/landing_page2" />
+
+        <TextView
+            android:id="@+id/tv_menu_com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

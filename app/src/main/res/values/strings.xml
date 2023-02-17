@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">game_suit_v3</string>
+    <string name="landing_first">Bermain suit melawan sesama pemain</string>
+    <string name="landing_second">Bermain suit melawan komputer</string>
+    <string name="landing_third">Tuliskan namamu dibawah</string>
+    <string name="mulai">Mulai</string>
+    <string name="menu_title">PILIH LAWANMU</string>
+    <string name="tutup">Tutup</string>
+    <string name="game_result">Hasil Permainan</string>
+    <string name="restart">Main Lagi</string>
+    <string name="back_to_menu">Kembali ke Menu</string>
+</resources>
